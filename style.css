@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 div {
-  border-style: dotted;
-  border-color: black;
+  border-style: dashed;
+  padding: 30px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
