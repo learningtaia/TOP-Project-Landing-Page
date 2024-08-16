@@ -1,20 +1,18 @@
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-}
-
-div {
-  border-style: dashed;
-  padding: 30px;
-  margin: 5px;
-}
-
-section {
-  border-style: solid;
-
 }
 
 .header {
   background-color: #1F2937;
   margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
 }
