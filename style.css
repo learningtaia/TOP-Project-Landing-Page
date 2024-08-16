@@ -35,12 +35,12 @@ nav {
 
 .links a {
   text-decoration: none;
-  color: #f9faf8;
+  color: #e2e8f0;
 
 }
 
 .links a:hover {
-  color: #e2e8f0;
+  color: #f9faf8;
 }
 
 /* header end */
