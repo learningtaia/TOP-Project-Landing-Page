@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 div {
   border-style: dashed;
   padding: 30px;
