@@ -1,5 +1,6 @@
 
 * {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -11,9 +12,10 @@
   background-color: #1F2937;
   padding: 15px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; 
   align-items: center;
 }
+
 
 .logo {
   color: #f9faf8;
@@ -22,21 +24,21 @@
 }
 
 nav {
-  width: 25%;
+  max-width: 350;
+  width: 350px;
 }
 
 .links {
   font-size: 18px;
   list-style-type: none;
-  display: flex;
-  justify-content: space-around;
   color: #e5e7eb;
-}
+  display: flex;
+  justify-content: space-evenly;
+ } 
 
 .links a {
   text-decoration: none;
   color: #e2e8f0;
-
 }
 
 .links a:hover {
