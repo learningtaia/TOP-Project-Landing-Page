@@ -215,6 +215,11 @@ cite {
   font-size: 18px;
   padding: 10px 30px;
   border-radius: 10px;
+  font-weight: 900;
+}
+
+.button a:hover {
+  background-color: #4e90fa;
 }
 
 /* sign-up section end */
