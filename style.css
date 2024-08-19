@@ -120,13 +120,14 @@ nav {
 
 .services ul {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 
 .services li {
   width: 200px;
   padding: 20px;
+  padding-bottom: 50px;
 }
 
 .more-info h2 {
@@ -151,6 +152,36 @@ nav {
   width: 98px;
 }
 
-
-
 /* more-info-section end */
+
+/* testimonial section start */
+
+.testimonial {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote {
+  width: 900px;
+  padding: 100px 100px 0 100px;
+  font-weight: lighter;
+  font-style: italic;
+  flex-wrap: wrap;
+}
+
+cite {
+  font-weight: 900;
+  font-style: normal;
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding: 20px 0 100px 0;
+  margin-left: 250px;
+  
+}
+
+/* testimonial section end */
