@@ -56,6 +56,7 @@ nav {
   align-items: center;
   height: 100vh;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .mindful-image {
@@ -91,7 +92,7 @@ nav {
   display: flex;
   flex-flow: column wrap;
   width: 400px;
-  margin-left: 130px;
+  margin-left: 140px;
   margin-right: 0;
 }
 
@@ -105,3 +106,51 @@ nav {
 }
 
 /* about-section end */
+
+/* more-info-section start */
+
+.more-info {
+  background-color: #f9faf8;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.services ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.services li {
+  width: 200px;
+  padding: 20px;
+}
+
+.more-info h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+.more-info ul {
+  color: #1F2937;
+  list-style-type: none;
+}
+
+.memory, .dreams, .advanced {
+  height: auto;
+  width: 100px;
+}
+
+.lucid {
+  height: auto;
+  width: 98px;
+}
+
+
+
+/* more-info-section end */
