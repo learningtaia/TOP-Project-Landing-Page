@@ -217,8 +217,16 @@ cite {
   border-radius: 10px;
 }
 
-.button {
+/* sign-up section end */
 
+/* footer section start */
+
+footer {
+  background-color: #1F2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
 }
 
-/* sign-up section end */
+/* footer section end */
